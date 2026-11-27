@@ -37,3 +37,10 @@ reminderForm.addEventListener("submit", function(event) {
     // Mengosongkan form setelah berhasil
     reminderForm.reset();
 });
+// Mengambil tombol servis
+const workshopButton = document.querySelector(".btn-workshop");
+
+// Menjalankan fungsi ketika tombol ditekan
+workshopButton.addEventListener("click", function () {
+    alert("Terima kasih! Silakan lanjutkan menghubungi bengkel MOTOIN melalui WhatsApp.");
+});
